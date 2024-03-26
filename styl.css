@@ -1,17 +1,17 @@
 body {
-    background-color: rgb(61, 61, 61);
-    color: white;
+	background-color: rgb(61, 61, 61);
+	color: white;
 }
 
 #timerBox {
-    border: 5px red groove;
-    width: fit-content;
-    height: fit-content;
-    line-height: 0px;
-    padding: 10px;
-    position: absolute;
-    right: 5px;
-    top: 5px;
-    background-color: black;
-    border-radius: 25px;
+	border: 5px red groove;
+	width: fit-content;
+	height: fit-content;
+	line-height: 0px;
+	padding: 10px;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	background-color: black;
+	border-radius: 25px;
 }
