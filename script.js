@@ -1,8 +1,7 @@
+let i = 1;
 function wastedTime() {
-    let i = 0;
-    var timer = document.getElementById("timer").innerHTML;
-    timer = i + " sec";
-    i++;
+    document.getElementById("timer").innerHTML = "wasted time: " + i + " sec";
+    i = i + 1;
 }
 
 const timerInterval = setInterval(wastedTime, 1000);
