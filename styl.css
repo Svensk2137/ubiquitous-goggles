@@ -15,3 +15,21 @@ body {
 	background-color: black;
 	border-radius: 25px;
 }
+
+#volvo {
+	position: absolute;
+	border: yellow solid 5px;
+	height: fit-content;
+	width: fit-content;
+	top: 0px;
+	left: 0px;
+}
+
+#volvobox {
+	border: 10px black solid;
+	width: 750px;
+	height: 500px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
