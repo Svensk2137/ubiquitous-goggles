@@ -1,13 +1,14 @@
 let i = 1;
 function wastedTime() {
 	document.getElementById("timer").innerHTML = "wasted time: " + i + " sec";
+	document.title = ""+i;
 	i = i + 1;
 }
 
 //const screenw = window.screen.width;
 //const screenh = window.screen.height;
-const screenh = 500 - 100;
-const screenw = 750 - 160;
+const screenh = 500 - 100 - 15;
+const screenw = 750 - 160 - 10;
 let desireh = screenh;
 let desirew = screenw;
 const volvoBox = document.getElementById("volvo");
