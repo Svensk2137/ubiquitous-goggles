@@ -7,8 +7,8 @@ function wastedTime() {
 
 //const screenw = window.screen.width;
 //const screenh = window.screen.height;
-const screenh = 500 - 100 - 15;
-const screenw = 750 - 160 - 10;
+const screenh = 500 - 100;
+const screenw = 750 - 160;
 let desireh = screenh;
 let desirew = screenw;
 const volvoBox = document.getElementById("volvo");
