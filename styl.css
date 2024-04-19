@@ -1,17 +1,44 @@
-body {
-	background-color: rgb(61, 61, 61);
-	color: white;
+html {
+	background-color: rgb(53, 53, 53);
 }
 
-#timerBox {
-	border: 5px red groove;
-	width: fit-content;
-	height: fit-content;
-	line-height: 0px;
-	padding: 10px;
-	position: absolute;
-	right: 5px;
-	top: 5px;
-	background-color: black;
+div.shit {
+	animation-name: buggin;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+	float: left;
+	position: relative;
+	background-color: rgb(41, 41, 41);
+	padding: 20px;
+	margin: 20px;
 	border-radius: 25px;
+	width: min-content;
+	height: min-content;
+	box-shadow: 10px 10px;
+}
+
+@keyframes buggin {
+	0% {rotate: -10deg; left: 10px;}
+	50% {rotate: 10deg; left: -10px;}
+	100% {rotate: -10deg; left: 10px;}
+}
+
+div.shit * {
+	background-color: rgb(41, 41, 41);
+}
+
+div.shit img {
+	width: 150px;
+}
+
+div.shit p {
+	text-align: center;
+	font-size: x-large;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: white;
+	background-color: rgb(34, 34, 34);
+	border: 2px rgb(20, 20, 20) solid;
+	border-radius: 25px;
+	padding: 10px;
 }
